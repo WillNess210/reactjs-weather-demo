@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import './style.css';
 
+
 class App extends Component {
   constructor() {
     super();
@@ -15,6 +16,7 @@ class App extends Component {
       <div>
         <Header location = "Boulder"/>
         <WeatherCard day = "Thu" tempLow = "67" tempHigh = "89"/>
+        <i class="wi wi-night-sleet"></i>
       </div>
     );
   }
