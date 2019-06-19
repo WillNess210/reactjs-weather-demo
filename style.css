@@ -1,0 +1,16 @@
+h1, p {
+  font-family: Lato;
+}
+
+.weatherCard{
+  background-color:lightgray;
+  width: 15%;
+  min-width: 50px;
+  max-width: 100px;
+  text-align: center;
+}
+
+.weatherTemps{
+  text-align: center;
+  font-size: small;
+}
